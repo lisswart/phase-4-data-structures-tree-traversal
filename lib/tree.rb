@@ -6,9 +6,10 @@ class Tree
   def get_element_by_id(id)
     holder = [@root]
 
-    while (holder.length > 0)
+    until holder.empty?
       current = holder.pop
       return current if current[:value] == id
+
       holder.push(*current[:children])
     end
     nil
