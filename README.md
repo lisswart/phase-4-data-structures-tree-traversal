@@ -27,7 +27,7 @@ depth-first.
 In breadth-first traversal, we start at the root, then visit the remaining nodes
 level by level, left to right:
 
-![bf-traversal](https://curriculum-content.s3.amazonaws.com/phase4/data-structures-trees/breadth-first.png)
+![bf-traversal](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-tree-traversal/breadth-first.png)
 
 In this example, the nodes would be visited in the following order:
 
@@ -110,7 +110,7 @@ end
 
 Let's call our method using the following very simple node as input:
 
-![simple node](https://curriculum-content.s3.amazonaws.com/phase4/data-structures-trees/simple-tree.png)
+![simple node](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-tree-traversal/simple-tree.png)
 
 We set up our variables, then call the method, passing the root node as an
 argument:
@@ -147,7 +147,7 @@ instead work our way down to the bottom of the tree first. Once we get to the
 bottom, we backtrack until we get to a node that hasn't been fully explored yet,
 work our way down to the bottom again, and so on until we're done:
 
-![depth-first-gif](https://curriculum-content.s3.amazonaws.com/phase4/data-structures-trees/depth-first.gif)
+![depth-first-gif](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-tree-traversal/depth-first.gif)
 
 This method of depth-first traversal is also known as **preorder traversal**.
 Once we're done, we will have visited the nodes in the following order:
@@ -214,7 +214,7 @@ In some cases, the desired output will determine what method of traversal should
 be used. Say, for example, we have a company organization chart that lists all
 the employees hierarchically:
 
-![Org chart](https://curriculum-content.s3.amazonaws.com/phase4/data-structures-trees/org-chart.png)
+![Org chart](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-tree-traversal/org-chart.png)
 
 On occasion, we may need to print out all the employees. If we want to print
 them in hierarchical order — the CEO first, followed by Vice Presidents,
